@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background: #555;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+#container img {
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    display: block;
+    object-fit: cover;
+}
+
+.character {
+    background: #272525;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px #4a4a4a;
+    display: flex;
+}
+
+.character-detail {
+    text-align: left;
+    color: #fff;
+}
+
+.character-detail p {
+    font-size: 18px;
+}
